@@ -1,12 +1,12 @@
-@import "./components/index";
-@import "./assets/scss/index";
+@import './assets/scss/index';
+@import './components/index';
 @include startSettings;
 
 .fade-enter {
-  opacity: 0;
-  z-index: 1;
+    opacity: 0;
+    z-index: 1;
 }
 .fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
 }
